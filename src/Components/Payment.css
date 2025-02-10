@@ -1,0 +1,80 @@
+.payment-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    z-index: 1000;
+    padding: 2rem;
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.payment-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    /* color: #333; */
+}
+
+.order-summary {
+    /* background: #f8f9fa; */
+    padding: 1rem;
+    border-radius: 5px;
+    border: 2px solid;
+    margin-bottom: 2rem;
+}
+
+.payment-methods {
+    margin-bottom: 2rem;
+}
+
+.method {
+    margin: 1rem 0;
+}
+
+.card-details, .upi-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-info {
+    display: flex;
+    gap: 1rem;
+}
+
+input[type="text"] {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.pay-button {
+    width: 100%;
+    padding: 1rem;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.pay-button:hover {
+    background: #45a049;
+} 
+
+
+
+@media screen and (max-width:500px) {
+    .card-info {
+        gap: 2rem;
+        /* margin-bottom:2px; */
+        display: block;
+    }
+
+
+    
+}

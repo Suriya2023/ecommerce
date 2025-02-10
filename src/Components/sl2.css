@@ -1,0 +1,114 @@
+.containere {
+   /* border: 1px solid red; */
+   width: 100%;
+   /* height: 200px; */
+   max-width: 1200px;
+   padding: 1vmin;
+   margin: 0 auto;
+   height: auto;
+   display: grid;
+   gap: 2.5vmin;
+   grid-template-columns: repeat(auto-fill, minmax(80px, 2fr));
+
+   /* grid-template-columns: 1fr 1fr; */
+}
+#Categories{
+  display: none;
+}
+.CategoriesH1{
+  margin-bottom: 3vmin;
+  /* font-size: 7vmin; */
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-style: oblique;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.5s ease;
+  transform: translateY(400%);
+  opacity: 0;
+}
+
+
+.CategoriesH1.fire{
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 0.5s ease;
+}
+.CategoriesH1:hover{
+  text-decoration: underline;
+
+}
+.imgggd {
+   padding: 1vmin;
+   border: 1px solid;
+   /* border-radius: 2vmin; */
+   /* box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.1); */
+
+}
+
+.imgggd img {
+   transition: all 0.3s ease;
+   cursor: pointer;
+   width: 100%;
+   height: 100%;
+   /* border-radius:2vmin; */
+   object-fit: cover;
+}
+
+.imgggd:hover {
+   /* border-radius: 1vmin; */
+   transform: scale(0.9);
+   border: none;
+   /* box-shadow: 10px 10px 10px 0 rgba(112, 177, 190, 0.1); */
+}
+
+@media screen and (max-width: 768px) {
+
+  .containere {
+     padding: 2vmin;
+  }
+  .imgggd {
+     width: 100%;
+     border-radius: 0px;
+     padding: 0px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .imgggd img {
+     border-radius: 1vmin;
+     scale: 1.1;
+  }
+  .imgggd {
+     border: none;
+  }
+  
+  .imgggd {
+     border-radius: 2vmin;
+     /* border: 1px solid; */
+     /* border-radius: 2vmin; */
+  }
+  .imgggd:hover{
+     border: none;
+     border: 2px solid;
+     border-radius: 2vmin;
+  }
+}
+
+@media (min-width: 1500px) {
+  .containere{
+   grid-template-columns: repeat(auto-fill, minmax(70px, 2fr));
+  }
+   #last {
+      display: none;
+   }
+
+   .imgggd {
+      width: 100%;
+      border-radius: 0px;
+      padding: 0px;
+   }
+
+   .imgggd img {
+      border-radius: 0px;
+   }
+}

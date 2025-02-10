@@ -1,0 +1,116 @@
+.containerpp {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.headerl {
+    margin-bottom: 20px;
+}
+
+.headerl h1 {
+    font-size: 24px;
+    /* color: #333; */
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 2px solid;
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.option-card {
+    flex: 1 1 300px;
+    max-width: 350px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.option-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.option-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.option-card button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.option-card button:hover {
+    background-color: #0056b3;
+}
+
+.extras {
+    margin-top: 40px;
+}
+
+.extras h2 {
+    font-size: 20px;
+    /* border: 2px solid; */
+    margin-bottom: 20px;
+    /* color: #333; */
+}
+
+.extras-grid {
+    display: flex;
+    /* border: 2px solid; */
+
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.extra-item {
+    /* border: 2px solid; */
+
+    text-align: center;
+    flex: 1 1 150px;
+}
+
+.extra-item img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.extra-item p {
+    font-size: 14px;
+    /* color: #333; */
+}
+
+@media (max-width: 768px) {
+    .option-card {
+        flex: 1 1 100%;
+    }
+
+    .extra-item {
+        flex: 1 1 100px;
+    }
+
+    .extras-grid {
+        gap: 15px;
+    }
+}

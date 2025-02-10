@@ -1,0 +1,214 @@
+.containerpl {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+
+.cardol {
+    display: flex;
+    width: 24rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.2s;
+}
+
+.cardol:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardol img {
+    border-radius: 4px;
+}
+
+.cardol h3 {
+    margin: 0 0 8px 0;
+    color: #333;
+}
+
+.cardol p {
+    margin: 0;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .cardol img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .cardol h3 {
+        font-size: 16px;
+    }
+
+    .cardol p {
+        font-size: 13px;
+    }
+}
+
+.empty-list {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.item-info {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.quantity-btn {
+    background: none;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.quantity-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.quantity-btn.remove {
+    color: #ff4444;
+}
+
+.quantity-btn.add {
+    color: #00C851;
+}
+
+.quantity {
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+}
+
+.total-section {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+.proceed-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffd814;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.proceed-button:hover {
+    background-color: #f7ca00;
+}
+
+.login-security-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 20px;
+}
+
+.login-security-container h2 {
+    color: #333;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.security-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.security-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.security-info h3 {
+    margin: 0;
+    font-size: 1rem;
+    /* color: #666; */
+}
+
+.security-info p {
+    margin: 0.5rem 0 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.edit-btn {
+    /* background-color: #f0f0f0; */
+    border: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.edit-btn:hover {
+    background-color: #e4e4e4;
+}
+
+.edit-field {
+    margin-top: 0.5rem;
+}
+
+.edit-field input {
+    padding: 0.5rem;
+    border: 1px solid ;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.edit-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.edit-buttons button {
+    padding: 0.3rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.edit-buttons button:first-child {
+    background-color: black;
+    color: white;
+    border-color: #4CAF50;
+}
+
+.edit-buttons button:hover {
+    opacity: 0.9;
+}

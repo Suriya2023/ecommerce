@@ -1,0 +1,115 @@
+.containergd {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2vmin;
+}
+
+
+.headinggd {
+    transition: all 0.15s ease;
+    transform: translateY(400%);
+    opacity: 0;
+    font-weight: 600;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    /* color: #000; */
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+
+}
+.headinggd.fire{
+    opacity: 1;
+    transform: translateY(0%);
+    transition: all 0.15s ease;
+}
+.headinggd:hover{
+    text-decoration: underline;
+}
+
+.containergdd{
+    cursor: pointer;
+    display: flex
+;
+    gap: 10px;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+.list{
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid blue; */
+}
+.listimg{
+    transition: all 0.5s ease;
+    transform: translateY(400%);
+    opacity: 0;
+}
+.listimg.fire{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 0.5s ease;
+}
+.listimg2{
+    transition: all 0.5s ease;
+    transform: translateY(400%);
+    opacity: 0;
+}
+.listimg2.fire{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 0.5s ease;
+}
+.listimg3{
+    transition: all 0.5s ease;
+    transform: translateY(400%);
+    opacity: 0;
+}
+.listimg3.fire{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 0.5s ease;
+}
+
+.list img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    background-color: rgb(239, 240, 240);
+    border-radius: 10px;
+    object-fit: cover;
+}
+.list3
+{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.list3 img{
+    margin: 0 auto;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    background-color: rgb(239, 240, 240);
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+ @media screen and (max-width: 768px) {
+    .containergdd{
+        flex-direction: column;
+    }
+    .list3 img{
+        width: 100%;
+        height: auto;
+        display:none;
+    }
+ }

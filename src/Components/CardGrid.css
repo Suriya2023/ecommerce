@@ -1,0 +1,202 @@
+.list {
+  display: flex;
+  gap: 0.25rem;
+  transform-style: preserve-3d;
+  list-style-type: none;
+
+ 
+
+  &:hover :not(:hover)::after {
+    opacity: 0.4;
+  }
+}
+
+.btncart{
+  display: inline-block;
+  padding: 5px 5px;
+  /* background-color: black; */
+  /* color: white; */
+  border: none;
+  border-radius: 5px;
+  border: 1px solid;
+  
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.item {
+  position: relative;
+  width: 120px;
+  aspect-ratio: 3/4;
+  border-radius: 0.5rem;
+  background-size: cover;
+  background-position: center;
+  transition: margin 0.5s, transform 0.5s;
+
+  &:nth-of-type(1) {
+    background-image: url(https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2215&q=80);
+  }
+
+  &:nth-of-type(2) {
+    background-image: url(https://images.unsplash.com/photo-1528825871115-3581a5387919?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2215&q=80);
+  }
+
+  &:nth-of-type(3) {
+    background-image: url(https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2265&q=80);
+  }
+
+  &:nth-of-type(4) {
+    background-image: url(https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2244&q=80);
+  }
+
+  &:nth-of-type(5) {
+    background-image: url(https://images.unsplash.com/photo-1618897996318-5a901fa6ca71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2264&q=80);
+  }
+
+  &:hover~.item {
+    transform: perspective(500px) rotateY(-45deg) scale(0.95);
+  }
+
+  &:hover {
+    transform: perspective(500px) rotateY(0) scale(1.2);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: inherit;
+    aspect-ratio: inherit;
+    border-radius: inherit;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+}
+/* end */
+
+
+._container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Mainsewaar h1 {
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
+
+.Mainsewaarh1 {
+    font-weight: 600;
+    text-align: center;
+    font-style: italic;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1rem;
+  }
+._section {
+  /* background: #fff; */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1 1 30%;
+  min-width: 300px;
+}
+
+._section h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  /* color: #333; */
+  text-align: center;
+}
+
+._card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+._card {
+  /* background: #f9f9f9; */
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s;
+}
+
+._card:hover {
+  transform: scale(1.05);
+}
+
+._card img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+._card p {
+  margin: 5px 0;
+  font-size: 14px;
+  /* color: #555; */
+}
+
+._price {
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+}
+
+._discount {
+  text-decoration: line-through;
+  font-size: 14px;
+  color: red;
+}
+
+@media (max-width: 768px) {
+  ._container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ._section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  ._card-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.buy-button {
+    background-color: #ff9f00;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #ff8800;
+}
+
+._card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}

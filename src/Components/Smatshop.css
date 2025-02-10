@@ -1,0 +1,81 @@
+.containere{
+    max-width: 1200px;
+    overflow-x: hidden
+} 
+#gdcd{
+    display: grid;
+    overflow-x: hidden;
+    max-width: 1200px;
+    width: 100%;
+    /* grid-template-columns: auto auto auto auto; */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* scroll-snap-type: x;/ */
+    /* border: 1px solid red; */
+}
+.textcenter{
+    transition: all 0.5s ease;
+    transform: translateY(800%);
+    opacity: 0;
+}
+.textcenter.fire{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 0.5s ease;
+}
+ 
+ 
+/* #LastWord{
+    padding: 2vmin;
+
+} */
+.locall{
+    transition: all 0.5s ease;
+    transform: translateY(400%);
+    opacity: 0;
+
+}
+.locall.fire{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 0.5s ease;
+}
+
+.localll{
+    transition: all 0.5s ease;
+    transform: translateY(400%);
+    opacity: 0;
+
+}
+.localll.fire{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 0.5s ease;
+}
+#LastWordd{
+    transition: all 0.5s ease;
+    transform: translateY(400%);
+    opacity: 0;
+    
+}
+#LastWorldd.fire{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 0.5s ease;
+}
+.iimg{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    /* border:2px solid red; */
+}   
+
+
+.textcenter{
+    text-align: center;
+    font-size: 4vmin;
+    cursor: pointer;
+    font-weight: bold;
+    /* color: black; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0 auto;
+}
