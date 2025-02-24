@@ -23,6 +23,9 @@ import Payment from './Components/Payment';
 
 import Womens from './Components/womens'
 import Childrens from './Components/Kids';
+import HomeCare from './Components/homeLeaving';
+import BeautyCare from './Components/BeautyCare';
+import Studio from './Components/Studio';
 
 
 function App() {
@@ -126,26 +129,29 @@ function App() {
 
         {/* <HomePage  mode={mode} /> */}
         <Routes>
-          {/* <Route path='/Shopping-App/' element={<Sl mode={mode} />} /> */}
-          <Route path='/Shopping-App/' element={<HomePage mode={mode} />} />
-          <Route path='/Shopping-App/Men' element={<CardGrid mode={mode} />} />
-          <Route path='/Shopping-App/Womens' element={<Womens />} />
-          <Route path='/Shopping-App/Childrens' element={<Childrens />} />
+          {/* <Route path='/ecommerce/' element={<Sl mode={mode} />} /> */}
+          <Route path='/ecommerce/' element={<HomePage mode={mode} />} />
+          <Route path='/ecommerce/Men' element={<CardGrid mode={mode} />} />
+          <Route path='/ecommerce/Womens' element={<Womens />} />
+          <Route path='/ecommerce/Childrens' element={<Childrens />} />
+          <Route path='/ecommerce/homeLeaving' element={<HomeCare />} />
+          <Route path='/ecommerce/BeautyCare' element={<BeautyCare />} />
+          <Route path='/ecommerce/Studio' element={<Studio />} />
 
-          <Route path='/Shopping-App/UserLogin' element={<UserLogin CloseSidebar={CloseSidebar} mode={mode} />} />
+          <Route path='/ecommerce/UserLogin' element={<UserLogin CloseSidebar={CloseSidebar} mode={mode} />} />
 
-          <Route path='/Shopping-App/Login' element={<User_Login mode={mode} />} />
-          <Route path='/Shopping-App/User_page' element={<User_Page mode={mode} />} />
-          <Route path='/Shopping-App/Sing_in' element={<Sing_Up mode={mode} />} />
-          <Route path='/Shopping-App/Your_List' element={<Your_List mode={mode} />} />
-          <Route path='/Shopping-App/Help' element={<Help mode={mode} />} />
-          <Route path='/Shopping-App/BusinessAc' element={<BusinessAc mode={mode} />} />
-          <Route path='/Shopping-App/Search' element={<Search mode={mode} />} />
-          <Route path='/Shopping-App/AddresVard' element={<AddresVard mode={mode} />} />
-          <Route path='/Shopping-App/Payment_Methods' element={<Payment_Methods mode={mode} />} />
-          <Route path='/Shopping-App/SlHome' element={<SlHomeUSer mode={mode} />} />
-          <Route path="/Shopping-App/Login-Security" element={<LoginSecurity />} />
-          <Route path="/Shopping-App/payment" element={<Payment mode={mode} />} />
+          <Route path='/ecommerce/Login' element={<User_Login mode={mode} />} />
+          <Route path='/ecommerce/User_page' element={<User_Page mode={mode} />} />
+          <Route path='/ecommerce/Sing_in' element={<Sing_Up mode={mode} />} />
+          <Route path='/ecommerce/Your_List' element={<Your_List mode={mode} />} />
+          <Route path='/ecommerce/Help' element={<Help mode={mode} />} />
+          <Route path='/ecommerce/BusinessAc' element={<BusinessAc mode={mode} />} />
+          <Route path='/ecommerce/Search' element={<Search mode={mode} />} />
+          <Route path='/ecommerce/AddresVard' element={<AddresVard mode={mode} />} />
+          <Route path='/ecommerce/Payment_Methods' element={<Payment_Methods mode={mode} />} />
+          <Route path='/ecommerce/SlHome' element={<SlHomeUSer mode={mode} />} />
+          <Route path="/ecommerce/Login-Security" element={<LoginSecurity />} />
+          <Route path="/ecommerce/payment" element={<Payment mode={mode} />} />
 
 
 

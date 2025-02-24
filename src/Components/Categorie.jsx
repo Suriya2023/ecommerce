@@ -62,78 +62,78 @@ function Categorie(props) {
       {/* <br /> */}
       <div className='containere'>
         <div className='imgggd localll'>
-          <Link   to="/Shopping-App/Womens" rel="noopener noreferrer">
+          <Link   to="/ecommerce/Womens" rel="noopener noreferrer">
             
             <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917206046.png" alt="" /></Link>
         </div>
         <div className='imgggd localll'>
-          <Link to="/Shopping-App/Womens">
+          <Link to="/ecommerce/Womens">
             <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917271582.png" alt="" />
           </Link>
         </div>
         <div className='imgggd localll'>
-          <Link to="/Shopping-App/Men">
+          <Link to="/ecommerce/Men">
             <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917337118.png" alt="" />
           </Link>
         </div>
         <div className='imgggd localll'>
-          <Link to="/Shopping-App/Childrens">
+          <Link to="/ecommerce/Childrens">
 
             <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917402654.png" alt="" />
           </Link>
         </div>
 
         <div className='imgggd localll'>
-          <Link to="/Shopping-App/Womens">
+          <Link to="/ecommerce/Womens">
           <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917468190.png  " alt="" />
           </Link>
         </div>
         <div className='imgggd localll'>
-          <Link to="/Shopping-App/Men">
+          <Link to="/ecommerce/Men">
           <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917533726.png" alt="" />
           </Link>
         </div>
         <div className='imgggd localll'>
-          <Link to="/Shopping-App/Childrens">
+          <Link to="/ecommerce/Childrens">
           <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917599262.png" alt="" />
           </Link>
         </div>
         <div className='imgggd localll'>
-          <Link to="/Shopping-App/Womens">
+          <Link to="/ecommerce/Womens">
           <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917664798.png" alt="" />
           </Link>
         </div>
         <div className='imgggd localll'>
-          <Link to="/Shopping-App/M en">
+          <Link to="/ecommerce/M en">
 
           <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917730334.png" alt="" />
           </Link>
         </div>
         <div className='imgggd localll'>
-          <Link to="/Shopping-App/Childrens">
+          <Link to="/ecommerce/Childrens">
           <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917795870.png" alt="" />
           </Link>
         </div>
         <div className='imgggd localll'>
-          <Link to="/Shopping-App/Womens">
+          <Link to="/ecommerce/Womens">
           <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917861406.png" alt="" />
           </Link>
         </div>
 
         <div className='imgggd localll' >
-          <Link to="/Shopping-App/Men">
+          <Link to="/ecommerce/Men">
           <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917533726.png" alt="" />
           </Link>
         </div>
 
         <div className='imgggd localll'>
-          <Link to="/Shopping-App/Childrens">
+          <Link to="/ecommerce/Childrens">
           <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917861406.png" alt="" />
           </Link> 
         </div>
 
         <div className='imgggd localll' id='last'>
-          <Link to="/Shopping-App/Womens">
+          <Link to="/ecommerce/Womens">
           <img src="https://assets.tatacliq.com/medias/sys_master/images/62926917533726.png" alt="" />
           </Link>
         </div>

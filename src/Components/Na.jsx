@@ -24,7 +24,7 @@ function Na(props) {
     };
 
     // const handleProceedToBuy = () => {
-    //     navigate('/Shopping-App/payment');
+    //     navigate('/ecommerce/payment');
     // };
 
     let ChangBtntgl = () => {
@@ -192,7 +192,7 @@ function Na(props) {
                                             className="proceed-button00"
                                         // onClick={handleProceedToBuy}
                                         >
-                                            <Link to={"/Shopping-App/payment"}> Proceed to Buy</Link>
+                                            <Link to={"/ecommerce/payment"}> Proceed to Buy</Link>
                                         </button>
                                     </>
                                 )}
@@ -262,19 +262,19 @@ function Na(props) {
                 <nav className={`navbar navbar-expand-lg bg-${props.mode} navbar-${props.mode} `}>
                     <div className={`container  ${props.mode === 'light' ? 'dark' : 'light'}`}>
                         <div className={`logo ${props.mode === 'light' ? 'dark' : 'light'} `}>
-                            <span className="logo-box"><i className="fa-solid fa-bag-shopping"></i> <i style={{ fontStyle: 'oblique' }} className={`underline  ${props.mode === 'light' ? 'dark' : 'light'}`}><Link id='todo' to="/Shopping-App/">Shop</Link></i></span>
+                            <span className="logo-box"><i className="fa-solid fa-bag-shopping"></i> <i style={{ fontStyle: 'oblique' }} className={`underline  ${props.mode === 'light' ? 'dark' : 'light'}`}><Link id='todo' to="/ecommerce/">Shop</Link></i></span>
                         </div>
 
 
 
                         <div className='responss'>
                             <ul className={`nav-links bg-${props.mode}`} id="nav-links">
-                                <li id=''><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/Shopping-App/Men">Men</Link></li>
-                                <li id='' ><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/Shopping-App/Womens">Women</Link></li>
-                                <li id='' ><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/Shopping-App/Childrens">Kids</Link></li>
-                                <li id='' ><a style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} href="#">Home & Living </a></li>
-                                <li id='' ><a style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} href="#">Beauty</a></li>
-                                <li id='' ><a style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} href="#">Studio <sup className='underline' >NEW</sup></a></li>
+                                <li id=''><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/ecommerce/Men">Men</Link></li>
+                                <li id='' ><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/ecommerce/Womens">Women</Link></li>
+                                <li id='' ><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/ecommerce/Childrens">Kids</Link></li>
+                                <li id='' ><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/ecommerce/homeLeaving">Home & Living </Link></li>
+                                <li id='' ><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/ecommerce/BeautyCare">Beauty</Link></li>
+                                <li id='' ><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/ecommerce/Studio">Studio <sup className='underline' >NEW</sup></Link></li>
 
                             </ul>
                         </div>
@@ -306,7 +306,7 @@ function Na(props) {
                                     </datalist>
                                     <input style={{ fontWeight: '600', textAlign: 'center', cursor: 'pointer', hover: 'underline', fontFamily: 'Times New Roman, Times, serif', fontSize: '1.2rem', borderRadius: '10px', paddingRight: '10px', paddingLeft: '10px', border: '1px solid ', fontStyle: 'oblique' }} className={`shortcut ${props.mode === 'light' ? 'dark' : 'light'}`} type='Submit' />
                                 </form> */}
-                            <Link to="/Shopping-App/Search" id='this' className="">
+                            <Link to="/ecommerce/Search" id='this' className="">
                                 <i className="fa-solid fa-magnifying-glass"></i>
                                 {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg> */}
 
@@ -314,7 +314,7 @@ function Na(props) {
 
                             {/* </li> */}
 
-                            <Link to="/Shopping-App/SlHome" className="nav-item active">
+                            <Link to="/ecommerce/SlHome" className="nav-item active">
                                 <img id='sjsj' src="https://img.icons8.com/?size=64&id=Ib9FADThtmSf&format=png" alt="" />
                             </Link>
 
@@ -344,12 +344,12 @@ function Na(props) {
 
                     <div id='respons' className='smallPosition'>
                         <ul className={`nav-links bg-${props.mode}`} id="nav-links  smallPosition">
-                            <li id='anim'><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/Shopping-App/Men">Men</Link></li>
+                            <li id='anim'><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/ecommerce/Men">Men</Link></li>
                             <li id='anim1' ><a style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} href="#">Women</a></li>
-                            <li id='anim2' ><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/Shopping-App/Childrens">Kids</Link></li>
-                            <li id='anim3' ><a style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} href="#">Home & Living </a></li>
-                            <li id='anim4' ><a style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} href="#">Beauty</a></li>
-                            <li id='anim5' ><a style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} href="#">Studio <sup className='underline' >NEW</sup></a></li>
+                            <li id='anim2' ><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/ecommerce/Childrens">Kids</Link></li>
+                            <li id='anim3' ><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/ecommerce/homeLeaving">Home & Living </Link></li>
+                            <li id='anim4' ><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/ecommerce/BeautyCare">Beauty</Link></li>
+                            <li id='anim5' ><Link style={{ fontStyle: 'oblique' }} className={`$bg-{props.mode === 'light' ? 'dark' : 'light'}`} to="/ecommerce/Studio">Studio <sup className='underline' >NEW</sup></Link></li>
 
 
                         </ul>

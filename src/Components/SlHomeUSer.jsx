@@ -9,14 +9,14 @@ function SlHomeUSer() {
                 <div className="cardol">
 
                     <img src="https://img.icons8.com/?size=80&id=67582&format=png" alt="Your Orders" />
-                    <Link to="/Shopping-App/Your_List">
+                    <Link to="/ecommerce/Your_List">
                         <h3>Your Orders List</h3>
                         <p>Track, return, or buy things again</p>
                     </Link>
                 </div>
                 <div className="cardol">
                     <img src="https://img.icons8.com/?size=80&id=115640&format=png" alt="Login & Security" />
-                    <Link to="/Shopping-App/Login-Security">
+                    <Link to="/ecommerce/Login-Security">
                         <h3>Login & Security</h3>
                         <p>Edit login, name, and mobile number</p>
                     </Link>
@@ -28,18 +28,18 @@ function SlHomeUSer() {
                 </div>
                 <div className="cardol">
                     <img src="https://img.icons8.com/?size=80&id=113806&format=png" alt="Your Addresses" />
-                    <Link to="/Shopping-App/AddresVard"> <h3>Your Addresses</h3>
+                    <Link to="/ecommerce/AddresVard"> <h3>Your Addresses</h3>
                         <p>Edit addresses for orders and gifts</p></Link>
                 </div>
                 <div className="cardol">
                     <img src="https://img.icons8.com/?size=80&id=QMuDJby5eC7X&format=png" />
-                    <Link to="/Shopping-App/BusinessAc"> <h3>Your Business Account</h3>
+                    <Link to="/ecommerce/BusinessAc"> <h3>Your Business Account</h3>
                         <p>Sign up to save with GST invoices</p> </Link>
 
                 </div>
                 <div className="cardol">
                     <img src="https://img.icons8.com/?size=80&id=64847&format=png" alt="Payment Options" />
-                    <Link to="/Shopping-App/Payment_Methods">
+                    <Link to="/ecommerce/Payment_Methods">
                         <h3>Payment Options</h3>
                         <p>Edit or add payment methods</p>
                     </Link>
@@ -51,7 +51,7 @@ function SlHomeUSer() {
                 </div>
                 <div className="cardol">
                     <img src="https://img.icons8.com/?size=80&id=63978&format=png" alt="Contact Us" />
-                    <Link to="/Shopping-App/Help">
+                    <Link to="/ecommerce/Help">
                         <h3>Contact Us</h3>
                         <p>Contact our customer service</p>
                     </Link>

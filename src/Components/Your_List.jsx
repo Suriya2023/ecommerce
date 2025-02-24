@@ -52,7 +52,7 @@ function Your_List(props) {
             <div className={`containepr bg-${props.mode}`}>
                 <div className="headepr">
                     <h1>Your Lists</h1>
-                    <button className="btn-primary"><Link to="/Shopping-App/">Create a List</Link></button>
+                    <button className="btn-primary"><Link to="/ecommerce/">Create a List</Link></button>
                 </div>
 
                 <div className="listt">
