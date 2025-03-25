@@ -38,7 +38,7 @@ export default defineConfig({
           {
             // https://suriya2023.github.io/ecommerce/homeLeaving
             urlPattern: /^https:\/\/suriya2023\.github\.io\/ecommerce\/.*/,
-            handler: 'networkFirst',
+            handler: 'NetworkFirst',
             options: {
               cacheName: 'api-cache',
               expiration: {
