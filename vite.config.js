@@ -14,7 +14,6 @@ export default defineConfig({
         theme_color: '#3182CE',
         background_color: '#F5F5F5',
         display: 'standalone',
-        start_url: '/ecommerce/',
 
         icons: [
 
@@ -53,5 +52,5 @@ export default defineConfig({
     },
   )
   ],
-  base: '/ecommerce/', // Replace 'your-repo-name' with your GitHub repository name
+  base: '/', // Replace 'your-repo-name' with your GitHub repository name
 })

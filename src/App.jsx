@@ -9,6 +9,7 @@ import CardGrid from './Components/CardGrid';
 import MBV from './Components/MobileView';
 import UserLogin from './Components/UserLogin';
 import User_Page from './Components/User_Page';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Sing_Up from './Components/SingUp';
 import Your_List from './Components/Your_List';
 import Help from './Components/Help';
@@ -123,6 +124,7 @@ function App() {
 
   return (
     <CartProvider>
+      <SpeedInsights/>
       <Router>
         <Na mode={mode} ToggleMode={ToggleMode} />
         {/* <User_Login /> */}
@@ -130,7 +132,7 @@ function App() {
         {/* <HomePage  mode={mode} /> */}
         <Routes>
           {/* <Route path='/ecommerce/' element={<Sl mode={mode} />} /> */}
-          <Route path='/ecommerce/' element={<HomePage mode={mode} />} />
+          <Route path='/' element={<HomePage mode={mode} />} />
           <Route path='/ecommerce/Men' element={<CardGrid mode={mode} />} />
           <Route path='/ecommerce/Womens' element={<Womens />} />
           <Route path='/ecommerce/Childrens' element={<Childrens />} />

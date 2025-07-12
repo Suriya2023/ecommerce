@@ -262,7 +262,7 @@ function Na(props) {
                 <nav className={`navbar navbar-expand-lg bg-${props.mode} navbar-${props.mode} `}>
                     <div className={`container  ${props.mode === 'light' ? 'dark' : 'light'}`}>
                         <div className={`logo ${props.mode === 'light' ? 'dark' : 'light'} `}>
-                            <span className="logo-box"><i className="fa-solid fa-bag-shopping"></i> <i style={{ fontStyle: 'oblique' }} className={`underline  ${props.mode === 'light' ? 'dark' : 'light'}`}><Link id='todo' to="/ecommerce/">Shop</Link></i></span>
+                            <span className="logo-box"><i className="fa-solid fa-bag-shopping"></i> <i style={{ fontStyle: 'oblique' }} className={`underline  ${props.mode === 'light' ? 'dark' : 'light'}`}><Link id='todo' to="/">Shop</Link></i></span>
                         </div>
 
 
